@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 確保在 GitHub Pages (子路徑) 下能正確載入資源
+  base: '/pixel-quiz-game/', // 確保在 GitHub Pages (子路徑) 下能正確載入資源
 });
