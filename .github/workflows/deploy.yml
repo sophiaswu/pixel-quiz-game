@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 # 設定 GITHUB_TOKEN 的權限以允許部署到 GitHub Pages
 permissions:
