@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Gamepad2, Loader2, Trophy, Skull } from 'lucide-react';
 
 type Question = {
